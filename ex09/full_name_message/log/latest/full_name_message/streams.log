@@ -1,0 +1,9 @@
+[0.006s] Invoking command in '/home/shaman/Рабочий стол/ex09/full_name_message/build/full_name_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shaman/Рабочий стол/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/shaman/Рабочий стол/ex09/full_name_message/install/full_name_message
+[0.015s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.098s] [31mCMake Error at CMakeLists.txt:11 (rosidl_generate_interfaces):
+[0.099s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.099s] 
+[0.099s] [0m
+[0.099s] -- Configuring incomplete, errors occurred!
+[0.099s] See also "/home/shaman/Рабочий стол/ex09/full_name_message/build/full_name_message/CMakeFiles/CMakeOutput.log".
+[0.101s] Invoked command in '/home/shaman/Рабочий стол/ex09/full_name_message/build/full_name_message' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shaman/Рабочий стол/ex09/full_name_message -DCMAKE_INSTALL_PREFIX=/home/shaman/Рабочий стол/ex09/full_name_message/install/full_name_message

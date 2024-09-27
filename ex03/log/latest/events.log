@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (d.nazarov1) JobQueued: {'identifier': 'd.nazarov1', 'dependencies': OrderedDict()}
+[0.000290] (d.nazarov1) JobStarted: {'identifier': 'd.nazarov1'}
+[0.004601] (d.nazarov1) JobProgress: {'identifier': 'd.nazarov1', 'progress': 'cmake'}
+[0.004773] (d.nazarov1) Command: {'cmd': ['/usr/bin/cmake', '/home/shaman/ex03/d.nazarov1', '-DCMAKE_INSTALL_PREFIX=/home/shaman/ex03/install/d.nazarov1'], 'cwd': '/home/shaman/ex03/build/d.nazarov1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shaman'), ('LC_TIME', 'mn_MN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shaman/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shaman'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'mn_MN'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1795'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5157be1e3ec8794bc20819ba66e7c51a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shaman/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shaman'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shaman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Cat:@/tmp/.ICE-unix/1795,unix/Cat:/tmp/.ICE-unix/1795'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'mn_MN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da17be2c_2c61_4f92_9739_23af4d2b43c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'ru_RU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'mn_MN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shaman/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'mn_MN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'mn_MN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'mn_MN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shaman/ex03/build/d.nazarov1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5157be1e3ec8794bc20819ba66e7c51a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shaman/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'mn_MN'), ('LC_PAPER', 'mn_MN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shaman/ros2_ws/install/turtlesim')]), 'shell': False}
+[0.040164] (d.nazarov1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094724] (d.nazarov1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098969] (d.nazarov1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099626] (-) TimerEvent: {}
+[0.161040] (d.nazarov1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.165509] (d.nazarov1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.165686] (d.nazarov1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.165870] (d.nazarov1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.167682] (d.nazarov1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199852] (-) TimerEvent: {}
+[0.225727] (d.nazarov1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.230343] (d.nazarov1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.230503] (d.nazarov1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.230808] (d.nazarov1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.232050] (d.nazarov1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300006] (-) TimerEvent: {}
+[0.333218] (d.nazarov1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.381971] (d.nazarov1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400148] (-) TimerEvent: {}
+[0.417498] (d.nazarov1) StderrLine: {'line': b"Error parsing '/home/shaman/ex03/d.nazarov1/package.xml':\n"}
+[0.444729] (d.nazarov1) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.444862] (d.nazarov1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.444899] (d.nazarov1) StderrLine: {'line': b'    main()\n'}
+[0.444932] (d.nazarov1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.444964] (d.nazarov1) StderrLine: {'line': b'    raise e\n'}
+[0.444994] (d.nazarov1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.445025] (d.nazarov1) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.445063] (d.nazarov1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[0.445099] (d.nazarov1) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[0.445130] (d.nazarov1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[0.445163] (d.nazarov1) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[0.445193] (d.nazarov1) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/shaman/ex03/d.nazarov1/package.xml':\n"}
+[0.445223] (d.nazarov1) StderrLine: {'line': b'Package name "d.nazarov1" does not follow naming conventions\n'}
+[0.454054] (d.nazarov1) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.454194] (d.nazarov1) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.454231] (d.nazarov1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.454264] (d.nazarov1) StderrLine: {'line': b'  /home/shaman/ex03/d.nazarov1/package.xml\n'}
+[0.454297] (d.nazarov1) StderrLine: {'line': b'  /home/shaman/ex03/build/d.nazarov1/ament_cmake_core/package.cmake) returned\n'}
+[0.454328] (d.nazarov1) StderrLine: {'line': b'  error code 1\n'}
+[0.454359] (d.nazarov1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.454389] (d.nazarov1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.454419] (d.nazarov1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.454449] (d.nazarov1) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)\n'}
+[0.454478] (d.nazarov1) StderrLine: {'line': b'\n'}
+[0.454507] (d.nazarov1) StderrLine: {'line': b'\x1b[0m\n'}
+[0.454537] (d.nazarov1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.454575] (d.nazarov1) StdoutLine: {'line': b'See also "/home/shaman/ex03/build/d.nazarov1/CMakeFiles/CMakeOutput.log".\n'}
+[0.457329] (d.nazarov1) CommandEnded: {'returncode': 1}
+[0.457564] (d.nazarov1) JobEnded: {'identifier': 'd.nazarov1', 'rc': 1}
+[0.467909] (-) EventReactorShutdown: {}

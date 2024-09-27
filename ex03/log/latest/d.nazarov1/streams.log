@@ -1,0 +1,45 @@
+[0.005s] Invoking command in '/home/shaman/ex03/build/d.nazarov1': /usr/bin/cmake /home/shaman/ex03/d.nazarov1 -DCMAKE_INSTALL_PREFIX=/home/shaman/ex03/install/d.nazarov1
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.226s] -- Detecting CXX compiler ABI info - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.231s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.382s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.417s] Error parsing '/home/shaman/ex03/d.nazarov1/package.xml':
+[0.445s] Traceback (most recent call last):
+[0.445s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.445s]     main()
+[0.445s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.445s]     raise e
+[0.445s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.445s]     package = parse_package_string(
+[0.445s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.445s]     pkg.validate(warnings=warnings)
+[0.445s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.445s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.445s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/shaman/ex03/d.nazarov1/package.xml':
+[0.445s] Package name "d.nazarov1" does not follow naming conventions
+[0.454s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.454s]   execute_process(/usr/bin/python3
+[0.454s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.454s]   /home/shaman/ex03/d.nazarov1/package.xml
+[0.454s]   /home/shaman/ex03/build/d.nazarov1/ament_cmake_core/package.cmake) returned
+[0.454s]   error code 1
+[0.454s] Call Stack (most recent call first):
+[0.454s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.454s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.454s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.454s] 
+[0.454s] [0m
+[0.454s] -- Configuring incomplete, errors occurred!
+[0.454s] See also "/home/shaman/ex03/build/d.nazarov1/CMakeFiles/CMakeOutput.log".
+[0.457s] Invoked command in '/home/shaman/ex03/build/d.nazarov1' returned '1': /usr/bin/cmake /home/shaman/ex03/d.nazarov1 -DCMAKE_INSTALL_PREFIX=/home/shaman/ex03/install/d.nazarov1

@@ -1,0 +1,2 @@
+Invoking command in '/home/shaman/ex03/build/d.nazarov1': /usr/bin/cmake /home/shaman/ex03/d.nazarov1 -DCMAKE_INSTALL_PREFIX=/home/shaman/ex03/install/d.nazarov1
+Invoked command in '/home/shaman/ex03/build/d.nazarov1' returned '1': /usr/bin/cmake /home/shaman/ex03/d.nazarov1 -DCMAKE_INSTALL_PREFIX=/home/shaman/ex03/install/d.nazarov1
