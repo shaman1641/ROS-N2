@@ -1,0 +1,10 @@
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/uninstall.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/text_to_cmd_vel_uninstall.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/talker.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/test.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/edit_cache.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/rebuild_cache.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/list_install_components.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/install.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/install/local.dir
+/home/shaman/ros2_ws/src/ROS-N2/build/CMakeFiles/install/strip.dir
