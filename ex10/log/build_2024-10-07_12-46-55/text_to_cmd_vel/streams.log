@@ -1,0 +1,61 @@
+[0.007s] Invoking command in '/home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shaman/ros2_ws/src/ROS-N2/ex10/text_to_cmd_vel -DCMAKE_INSTALL_PREFIX=/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel
+[0.214s] -- The C compiler identification is GNU 11.4.0
+[0.415s] -- The CXX compiler identification is GNU 11.4.0
+[0.441s] -- Detecting C compiler ABI info
+[0.634s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.669s] -- Detecting C compile features
+[0.671s] -- Detecting C compile features - done
+[0.681s] -- Detecting CXX compiler ABI info
+[0.907s] -- Detecting CXX compiler ABI info - done
+[0.933s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.934s] -- Detecting CXX compile features
+[0.935s] -- Detecting CXX compile features - done
+[0.953s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.689s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.817s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.828s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.846s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.945s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.949s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.105s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.189s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.281s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.294s] -- Looking for pthread.h
+[2.487s] -- Looking for pthread.h - found
+[2.488s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.696s] -- Found Threads: TRUE  
+[2.886s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.112s] -- Configuring done
+[3.136s] -- Generating done
+[3.140s] -- Build files have been written to: /home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel
+[3.164s] Invoked command in '/home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shaman/ros2_ws/src/ROS-N2/ex10/text_to_cmd_vel -DCMAKE_INSTALL_PREFIX=/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel
+[3.171s] Invoking command in '/home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel -- -j12 -l12
+[3.302s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[9.065s] [100%] [32m[1mLinking CXX executable talker[0m
+[9.433s] [100%] Built target talker
+[9.440s] Invoked command in '/home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel -- -j12 -l12
+[9.510s] Invoking command in '/home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel
+[9.529s] -- Install configuration: ""
+[9.530s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/lib/text_to_cmd_vel/talker
+[9.539s] -- Set runtime path of "/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/lib/text_to_cmd_vel/talker" to ""
+[9.540s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/package_run_dependencies/text_to_cmd_vel
+[9.541s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/parent_prefix_path/text_to_cmd_vel
+[9.541s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.sh
+[9.541s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.dsv
+[9.541s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.sh
+[9.542s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.dsv
+[9.542s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.bash
+[9.542s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.sh
+[9.542s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.zsh
+[9.542s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.dsv
+[9.543s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/package.dsv
+[9.543s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/packages/text_to_cmd_vel
+[9.543s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig.cmake
+[9.544s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig-version.cmake
+[9.544s] -- Installing: /home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/package.xml
+[9.549s] Invoked command in '/home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaman/ros2_ws/src/ROS-N2/ex10/build/text_to_cmd_vel

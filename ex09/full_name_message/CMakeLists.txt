@@ -8,8 +8,12 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 
+# Укажите директорию для srv файлов
+find_package(rosidl_default_generators REQUIRED)
+find_package(rosidl_generator_cpp REQUIRED)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/full_name_message.msg"
+  "msg/FullNameMessage.msg"
   "srv/FullNameSumService.srv"
 )
 # uncomment the following section in order to fill in

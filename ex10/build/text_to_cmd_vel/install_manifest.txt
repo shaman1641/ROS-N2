@@ -1,0 +1,16 @@
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/lib/text_to_cmd_vel/talker
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/package_run_dependencies/text_to_cmd_vel
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/parent_prefix_path/text_to_cmd_vel
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.sh
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/ament_prefix_path.dsv
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.sh
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/environment/path.dsv
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.bash
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.sh
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.zsh
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/local_setup.dsv
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/package.dsv
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/ament_index/resource_index/packages/text_to_cmd_vel
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig.cmake
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/cmake/text_to_cmd_velConfig-version.cmake
+/home/shaman/ros2_ws/src/ROS-N2/ex10/install/text_to_cmd_vel/share/text_to_cmd_vel/package.xml
